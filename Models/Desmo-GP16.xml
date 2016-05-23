@@ -86,9 +86,9 @@
       <property>sim/multiplay/generic/float[3]</property>
       <factor>48</factor>
       <center>
-       <x-m> 0.777</x-m>
-       <y-m> 0.0</y-m>
-       <z-m> 0.251</z-m>
+       <x-m> 0.9064</x-m>
+       <y-m> 0.1283</y-m>
+       <z-m> 0.1972</z-m>
       </center>
       <axis>
        <x>0</x>
@@ -646,9 +646,9 @@
    <type>spin</type>
    <factor>26</factor>
    <center>
-    <x-m> 0.7641</x-m>
-    <y-m> 0.0</y-m>
-    <z-m> 0.198</z-m>
+   <x-m> 0.9064</x-m>
+   <y-m> 0.1283</y-m>
+   <z-m> 0.1972</z-m>
    </center>
    <axis>
     <x>0</x>
