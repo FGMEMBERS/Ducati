@@ -43,10 +43,10 @@
     <condition>
       <equals>
         <property>sim/model/livery/file</property>
-        <value>rossi</value>
+        <value>iannone</value>
       </equals>
     </condition>
-    <texture>driver.png</texture>
+    <texture>AndreaIannone_driver.png</texture>
   </animation>
   
   <animation>
@@ -69,38 +69,12 @@
     <condition>
       <equals>
         <property>sim/model/livery/file</property>
-        <value>dunlop</value>
+        <value>dovizioso</value>
       </equals>
     </condition>
-    <texture>MichaelDunlop_driver.png</texture>
+    <texture>AndreaDovizioso_driver.png</texture>
   </animation>
-  
-  <animation>
-    <type>material</type>
-    <object-name>tete</object-name>
-    <object-name>corps</object-name>
-    <object-name>corpsMichael</object-name>
-    <object-name>helm</object-name>
-  	<object-name>hair</object-name>
-    <object-name>brasG</object-name>
-    <object-name>brasD</object-name>
-    <object-name>avantbrasG</object-name>
-    <object-name>avantbrasD</object-name>
-    <object-name>cuisseG</object-name>
-    <object-name>cuisseD</object-name>
-    <object-name>jambeG</object-name>
-    <object-name>jambeD</object-name>
-    <object-name>piedG</object-name>
-    <object-name>piedD</object-name>
-    <condition>
-      <equals>
-        <property>sim/model/livery/file</property>
-        <value>team</value>
-      </equals>
-    </condition>
-    <texture>Team_driver.png</texture>
-  </animation>
-  
+
   <animation>
   <type>select</type>
   <object-name>hair</object-name>

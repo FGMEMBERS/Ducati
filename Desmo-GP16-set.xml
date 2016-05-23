@@ -140,7 +140,7 @@ and have fun!</text>
 	<menubar>
 		<default>
 		<menu n="10">
-			<label>YFR-M1</label>
+			<label>Ducati</label>
 			<enabled type="bool">true</enabled>
 			<item>
 				<label>--- Tools ---</label>
