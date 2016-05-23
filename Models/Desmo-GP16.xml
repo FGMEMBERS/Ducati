@@ -39,6 +39,8 @@
     <object-name>carrd06</object-name>
     <object-name>carrd07</object-name>
     <object-name>cro</object-name>
+    <object-name>wing.l</object-name>
+    <object-name>wing.h</object-name>
     <object-name>di</object-name>
     <object-name>e</object-name>
     <object-name>e01</object-name>
@@ -310,6 +312,8 @@
       <object-name>carrd06</object-name>
       <object-name>carrd07</object-name>
       <object-name>cro</object-name>
+      <object-name>wing.l</object-name>
+      <object-name>wing.h</object-name>
       <object-name>di</object-name>
       <object-name>e</object-name>
       <object-name>e01</object-name>
@@ -390,6 +394,8 @@
         <object-name>carrd06</object-name>
         <object-name>carrd07</object-name>
         <object-name>cro</object-name>
+        <object-name>wing.l</object-name>
+        <object-name>wing.h</object-name>
         <object-name>di</object-name>
         <object-name>e</object-name>
         <object-name>e01</object-name>
