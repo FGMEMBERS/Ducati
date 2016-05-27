@@ -27,6 +27,7 @@
     <object-name>corps</object-name>
     <object-name>corpsMichael</object-name>
     <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <object-name>brasG</object-name>
     <object-name>brasD</object-name>
@@ -53,6 +54,7 @@
     <object-name>corps</object-name>
     <object-name>corpsMichael</object-name>
     <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <object-name>brasG</object-name>
     <object-name>brasD</object-name>
@@ -72,6 +74,60 @@
     </condition>
     <texture>AndreaDovizioso_driver.png</texture>
   </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>tete</object-name>
+    <object-name>corps</object-name>
+    <object-name>corpsMichael</object-name>
+    <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
+  	<object-name>hair</object-name>
+    <object-name>brasG</object-name>
+    <object-name>brasD</object-name>
+    <object-name>avantbrasG</object-name>
+    <object-name>avantbrasD</object-name>
+    <object-name>cuisseG</object-name>
+    <object-name>cuisseD</object-name>
+    <object-name>jambeG</object-name>
+    <object-name>jambeD</object-name>
+    <object-name>piedG</object-name>
+    <object-name>piedD</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/livery/file</property>
+        <value>redding</value>
+      </equals>
+    </condition>
+    <texture>ScottRedding_driver.png</texture>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>tete</object-name>
+    <object-name>corps</object-name>
+    <object-name>corpsMichael</object-name>
+    <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
+  	<object-name>hair</object-name>
+    <object-name>brasG</object-name>
+    <object-name>brasD</object-name>
+    <object-name>avantbrasG</object-name>
+    <object-name>avantbrasD</object-name>
+    <object-name>cuisseG</object-name>
+    <object-name>cuisseD</object-name>
+    <object-name>jambeG</object-name>
+    <object-name>jambeD</object-name>
+    <object-name>piedG</object-name>
+    <object-name>piedD</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/livery/file</property>
+        <value>petrucci</value>
+      </equals>
+    </condition>
+    <texture>DaniloPetrucci_driver.png</texture>
+  </animation>
 
   <animation>
   <type>select</type>
@@ -86,9 +142,34 @@
 
   <animation>
   <type>select</type>
+    <object-name>helm.001</object-name>
+    <condition>
+	      <not>
+	        <equals>
+		        <property>sim/model/livery/file</property>
+		        <value>iannone</value>
+	        </equals>
+	      </not>
+    </condition>
+  </animation>
+  
+  <animation>
+  <type>select</type>
+    <object-name>helm.002</object-name>
+    <condition>
+	        <equals>
+		        <property>sim/model/livery/file</property>
+		        <value>iannone</value>
+	        </equals>
+    </condition>
+  </animation>
+
+  <animation>
+  <type>select</type>
   <object-name>tete</object-name>
   <object-name>helm</object-name>
   <object-name>helm.001</object-name>
+  <object-name>helm.002</object-name>
   <object-name>corps</object-name>
   <object-name>corpsMichael</object-name>
   <object-name>gilet</object-name>
@@ -167,6 +248,7 @@
     <object-name>tete</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
     <object-name>hair</object-name>
     <property>surface-positions/rudder-pos-norm</property>
     <factor>-10</factor>
@@ -501,6 +583,7 @@
     <object-name>giletMichael</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
     <object-name>brasG</object-name>
     <object-name>brasD</object-name>
     <object-name>avantbrasG</object-name>
@@ -633,6 +716,7 @@
     <object-name>tete</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <property>sim/multiplay/generic/float[3]</property>
     <factor>-40</factor>
@@ -653,6 +737,7 @@
     <object-name>tete</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <property>sim/multiplay/generic/float[3]</property>
     <factor>0.07</factor>
@@ -666,6 +751,7 @@
   <animation>
     <type>rotate</type>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
     <property>engines/engine/rpm</property>
     <interpolation>
       <entry><ind> 0 </ind><dep> 30 </dep></entry>
@@ -689,6 +775,7 @@
     <object-name>tete</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
  	<object-name>hair</object-name>
     <property>surface-positions/left-aileron-pos-norm</property>
   	<interpolation>

@@ -29,6 +29,7 @@
     <object-name>corps</object-name>
     <object-name>corpsMichael</object-name>
     <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <object-name>brasG</object-name>
     <object-name>brasD</object-name>
@@ -55,6 +56,7 @@
     <object-name>corps</object-name>
     <object-name>corpsMichael</object-name>
     <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
   	<object-name>hair</object-name>
     <object-name>brasG</object-name>
     <object-name>brasD</object-name>
@@ -76,6 +78,60 @@
   </animation>
 
   <animation>
+    <type>material</type>
+    <object-name>tete</object-name>
+    <object-name>corps</object-name>
+    <object-name>corpsMichael</object-name>
+    <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
+  	<object-name>hair</object-name>
+    <object-name>brasG</object-name>
+    <object-name>brasD</object-name>
+    <object-name>avantbrasG</object-name>
+    <object-name>avantbrasD</object-name>
+    <object-name>cuisseG</object-name>
+    <object-name>cuisseD</object-name>
+    <object-name>jambeG</object-name>
+    <object-name>jambeD</object-name>
+    <object-name>piedG</object-name>
+    <object-name>piedD</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/livery/file</property>
+        <value>redding</value>
+      </equals>
+    </condition>
+    <texture>ScottRedding_driver.png</texture>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>tete</object-name>
+    <object-name>corps</object-name>
+    <object-name>corpsMichael</object-name>
+    <object-name>helm</object-name>
+    <object-name>helm.002</object-name>
+  	<object-name>hair</object-name>
+    <object-name>brasG</object-name>
+    <object-name>brasD</object-name>
+    <object-name>avantbrasG</object-name>
+    <object-name>avantbrasD</object-name>
+    <object-name>cuisseG</object-name>
+    <object-name>cuisseD</object-name>
+    <object-name>jambeG</object-name>
+    <object-name>jambeD</object-name>
+    <object-name>piedG</object-name>
+    <object-name>piedD</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/livery/file</property>
+        <value>petrucci</value>
+      </equals>
+    </condition>
+    <texture>DaniloPetrucci_driver.png</texture>
+  </animation>
+
+  <animation>
   <type>select</type>
   <object-name>hair</object-name>
 	  <condition>
@@ -91,6 +147,7 @@
   <object-name>tete</object-name>
   <object-name>helm</object-name>
   <object-name>helm.001</object-name>
+  <object-name>helm.002</object-name>
   <object-name>corps</object-name>
   <object-name>corpsMichael</object-name>
   <object-name>giletMichael</object-name>
@@ -269,6 +326,7 @@
     <object-name>tete</object-name>
     <object-name>helm</object-name>
     <object-name>helm.001</object-name>
+    <object-name>helm.002</object-name>
  	<object-name>hair</object-name>
     <condition>
       <greater-than>
