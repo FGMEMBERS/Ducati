@@ -338,6 +338,11 @@ and have fun!</text>
 		<path>/Ducati/JE/sector[1]/fastest-time</path>
 		<path>/Ducati/JE/sector[2]/fastest-time</path>
 		<path>/Ducati/JE/sector[3]/fastest-time</path>
+		<path>/Ducati/BC/fastest-lap</path>
+		<path>/Ducati/BC/sector[0]/fastest-time</path>
+		<path>/Ducati/BC/sector[1]/fastest-time</path>
+		<path>/Ducati/BC/sector[2]/fastest-time</path>
+		<path>/Ducati/BC/sector[3]/fastest-time</path>
 		<path>/controls/flight/select-throttle-input</path>
 		<path>/controls/Ducati/old-mens-mode</path>
 		<path>/controls/hang-off-speed</path>
